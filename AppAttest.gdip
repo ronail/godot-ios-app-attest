@@ -1,0 +1,15 @@
+[config]
+name="AppAttest"
+binary="app_attest.xcframework"
+initialization="app_attest_init"
+deinitialization="app_attest_deinit"
+
+[dependencies]
+linked=[]
+embedded=[]
+system=["DeviceCheck.framework"]
+capabilities=[]
+files=[]
+linker_flags=[]
+
+[plist]
